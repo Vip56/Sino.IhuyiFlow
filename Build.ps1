@@ -46,4 +46,4 @@ $revision = [convert]::ToInt32($revision, 10)
 
 #exec { & dotnet test .\test\FlowServiceUnitTest -c Release }
 
-exec { & dotnet pack .\src\Sino.Sino.IhuyiFlow -c Release -o .\artifacts --version-suffix=$revision }
+exec { & dotnet pack "C:\projects\sino-ihuyiflow\src\Sino.IhuyiFlow" -c Release -o .\artifacts --version-suffix=$revision }
