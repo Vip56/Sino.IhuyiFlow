@@ -5,9 +5,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A429A011-E9D4-480E-91F9-C1C76FFED70E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CCF309EF-AB34-4551-AC23-02D0493C0A70}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "global", "global", "{CCF309EF-AB34-4551-AC23-02D0493C0A70}"
 	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+		Build.ps1 = Build.ps1
 		global.json = global.json
+		LICENSE = LICENSE
+		ReadMe.md = ReadMe.md
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sino.IhuyiFlow", "src\Sino.IhuyiFlow\Sino.IhuyiFlow.xproj", "{AE148353-04DB-4A54-B6A3-11D26EFB2BA7}"
